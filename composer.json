@@ -25,6 +25,11 @@
             "name": "Adrien Crivelli"
         }
     ],
+    "config": {
+        "platform": {
+            "php": "7.0.33"
+        }
+    },
     "scripts": {
         "check": [
             "php-cs-fixer fix --ansi --dry-run --diff",
